@@ -1,24 +1,44 @@
-# automatic-number-plate-recognition-python-yolov8
+# Automatic Number Plate Recognition (ANPR) using Python, YOLOv8, and EasyOCR 🚗🔍
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=fyJB1t0o0ms">
-    <img width="600" src="https://utils-computervisiondeveloper.s3.amazonaws.com/thumbnails/with_play_button/anpr_yolo2.jpg" alt="Watch the video">
-    </br>Watch on YouTube: Automatic number plate recognition with Python, Yolov8 and EasyOCR !
-</a>
-</p>
 
-## data
 
-The video I used in this tutorial can be downloaded [here](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/).
+## 📌 Project Overview
 
-## models
+This project is a real-time **Automatic Number Plate Recognition (ANPR)** system built using **Python**, **YOLOv8**, and **EasyOCR**. It detects license plates in images or videos and extracts the alphanumeric characters with high accuracy. This tool can be used in traffic surveillance, toll systems, parking management, and smart security systems.
 
-A Yolov8 pretrained model was used to detect vehicles.
+---
 
-A licensed plate detector was used to detect license plates. The model was trained with Yolov8 using [this dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4) and following this [step by step tutorial on how to train an object detector with Yolov8 on your custom data](https://github.com/computervisioneng/train-yolov8-custom-dataset-step-by-step-guide). 
+## 📸 Demo
 
-The trained model is available in my [Patreon](https://www.patreon.com/ComputerVisionEngineer).
 
-## dependencies
 
-The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort) as mentioned in the [video](https://youtu.be/fyJB1t0o0ms?t=1120).
+---
+
+## ⚙️ Features
+
+- 🚗 Real-time number plate detection using YOLOv8
+- 🔡 Optical character recognition using EasyOCR
+- 🧠 Custom YOLOv8 training on number plate datasets
+- 🖼️ Works on images, videos, or webcam streams
+- 💾 Save results with timestamps and metadata
+- 🌐 Support for multiple languages and plate formats
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.8+
+- [YOLOv8](https://github.com/ultralytics/ultralytics)
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+- OpenCV
+- NumPy
+- Roboflow or LabelImg (for dataset annotation)
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/ANPR-YOLOv8-EasyOCR.git
+cd ANPR-YOLOv8-EasyOCR
