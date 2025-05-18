@@ -40,5 +40,5 @@ This project is a real-time **Automatic Number Plate Recognition (ANPR)** system
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/ANPR-YOLOv8-EasyOCR.git
+git clone https://github.com/noelpaulrinso/ANPR-YOLOv8-EasyOCR.git
 cd ANPR-YOLOv8-EasyOCR
